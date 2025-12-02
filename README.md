@@ -30,7 +30,7 @@ This project analyzes Walmart weekly sales data using SQL. The objective is to e
 
 **SQL Concepts Used:** `SELECT`, `COUNT`, `SUM`, `CASE`  
 **Insights:** The dataset contains no missing `Weekly_Sales` or `Date_` values. All stores have consistent weekly records.  
-![Data Overview Screenshot]("screenshots/01.png")
+![Data Overview Screenshot](screenshots/01.png)
 ---
 
 ### 02_Basic_Statistics.sql – Summary statistics and group analysis
@@ -42,7 +42,7 @@ This project analyzes Walmart weekly sales data using SQL. The objective is to e
 
 **SQL Concepts Used:** `MIN`, `MAX`, `AVG`, `SUM`, `GROUP BY`, `WHERE`  
 **Insights:** Holiday weeks tend to have higher sales. 2010 total sales indicate early patterns of revenue growth.  
-![Basic Stats Screenshot]("screenshots/02.png")
+![Basic Stats Screenshot](screenshots/02.png)
 
 ---
 
@@ -55,7 +55,7 @@ This project analyzes Walmart weekly sales data using SQL. The objective is to e
 
 **SQL Concepts Used:** `GROUP BY`, `ORDER BY`, `OVER`, `ROWS BETWEEN`, `LAG`  
 **Insights:** Moving averages reveal sales trends, highlighting seasonal peaks and troughs. YoY growth shows overall yearly performance improvement.  
-![Time Series Screenshot]("screenshots/03.png")
+![Time Series Screenshot](screenshots/03.png)
 
 ---
 
@@ -67,7 +67,7 @@ This project analyzes Walmart weekly sales data using SQL. The objective is to e
 
 **SQL Concepts Used:** `TOP`, `ORDER BY`, subqueries  
 **Insights:** Certain weeks (often around holidays) significantly outperform others, indicating seasonal demand impact.  
-![Top Bottom Screenshot]("screenshots/04.png")
+![Top Bottom Screenshot](screenshots/04.png)
 
 ---
 
@@ -82,7 +82,7 @@ This project analyzes Walmart weekly sales data using SQL. The objective is to e
 
 **SQL Concepts Used:** Window functions (`SUM() OVER`, `LAG()`, `RANK()`), `CASE`, `PARTITION BY`  
 **Insights:** Cumulative sales show growth trends per store. Weekly changes highlight volatility. Sales categories help identify performance levels quickly.  
-![Advanced Analytics Screenshot]("screenshots/05.png")
+![Advanced Analytics Screenshot](screenshots/05.png)
 
 ---
 
